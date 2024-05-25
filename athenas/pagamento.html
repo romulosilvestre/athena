@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento - Curso de Matemática para o ENEM</title>
+    <link rel="stylesheet" href="styles-seg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>protótipo de pagamento</h1>
+        <nav>
+            <a href="#curso">Curso</a>
+            <a href="#pagamento">Pagamento</a>
+            <a href="#seguranca">Segurança</a>
+        </nav>
+    </header>
+
+    <!-- Detalhes do Curso Section -->
+    <section id="curso" class="main-section">
+        <h2>Plano Premium (acesso total) </h2>
+        <div class="product-container">
+            <div class="product-image">
+                <img src="https://via.placeholder.com/300" alt="Curso de Matemática para o ENEM">
+            </div>
+            <div class="product-details">
+                <h3>Estude com todos os recursos para passar na prova</h3>
+                <p>Prepare-se para o ENEM com todas as nossas disciplinas, que cobre todos os tópicos necessários para a prova.</p>
+                <p><strong>R$ 79,90</strong></p>
+                <button>Comprar Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Pagamento Section -->
+    <section id="pagamento" class="main-section">
+        <h2>Formas de Pagamento</h2>
+        <form>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="cartao">Número do Cartão:</label>
+            <input type="text" id="cartao" name="cartao" required>
+
+            <label for="validade">Validade (MM/AA):</label>
+            <input type="text" id="validade" name="validade" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <button type="submit">Finalizar Compra</button>
+        </form>
+    </section>
+
+    <!-- Segurança Section -->
+    <section id="seguranca" class="main-section">
+        <h2>Compra Segura</h2>
+        <div class="security-icons">
+            <i class="fas fa-lock"></i>
+            <p>Suas informações estão protegidas com a nossa segurança SSL.</p>
+        </div>
+        <div class="security-icons">
+            <i class="fas fa-shield-alt"></i>
+            <p>Compra garantida e protegida contra fraudes.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Plataforma Athenas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

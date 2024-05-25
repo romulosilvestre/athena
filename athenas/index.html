@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athenas - Plataforma de Estudo para o ENEM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Protótipo Athenas</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    
+    <!-- Slideshow Section -->
+    <section id="slideshow" class="main-section">
+        <div class="slideshow-container">
+            <div class="slide">
+                <h2>Bem-vindo à Athenas</h2>
+                <p>A plataforma que transforma seu estudo para o ENEM.</p>
+                <a href="plano.html">conheça nossos planos</a>
+            </div>
+            <div class="slide">
+                <h2>Nossos Professores</h2>
+                <p>Conheça nossa equipe de professores especializados.</p>
+            </div>
+            <div class="slide">
+                <h2>Recursos Exclusivos</h2>
+                <p>Acesse vídeo aulas, módulos interativos e muito mais.</p>
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="main-section">
+        <h2>Sobre a Athenas</h2>
+        <p>A plataforma Athenas oferece suporte completo para alunos que estão se preparando para o ENEM. Contamos com cursos, módulos, professores qualificados, vídeo aulas e muitos outros recursos para potencializar seus estudos.</p>
+    </section>
+    
+    <section id="cursos" class="main-section">
+        <h2>Nossos Cursos</h2>
+        <div class="card">
+            <h3>Curso de Matemática</h3>
+            <p>Aprenda matemática de forma prática e descomplicada.</p>
+        </div>
+        <div class="card">
+            <h3>Curso de Português</h3>
+            <p>Domine a língua portuguesa e arrase na redação do ENEM.</p>
+        </div>
+        <div class="card">
+            <h3>Curso de Ciências</h3>
+            <p>Entenda os principais conceitos de física, química e biologia.</p>
+        </div>
+        <div class="card">
+            <h3>Curso de História</h3>
+            <p>Conheça os eventos históricos mais importantes e suas consequências.</p>
+        </div>
+    </section>
+    
+    <section id="contato" class="main-section">
+        <h2>Contato</h2>
+        <button>Estude Conosco</button>
+        <button>Trabalhe Conosco</button>
+        <button>Administrador do Sistema</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Plataforma Athenas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
